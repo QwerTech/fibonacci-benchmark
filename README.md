@@ -6,6 +6,7 @@ https://gist.github.com/QwerTech/0ddd3367685f4c62523317f6ee82521b
 
 ### Benchmark results
 ![](https://github.com/QwerTech/fibonachi-benchmark/raw/master/graph.png)
+
 |(calcClass)|(index)| Mode|Cnt| Score|Error|Units|
 | :------------ | :------------ | :------------ | :------------ | :------------ | :------------ |
 |org.qwertech.CycleFibCalc|5|thrpt|200|33129482.506|± 311934.001|ops/s|
