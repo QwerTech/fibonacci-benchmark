@@ -8,7 +8,7 @@ import org.openjdk.jmh.annotations.Setup;
 import org.openjdk.jmh.annotations.State;
 
 /**
- * BenchmarkRunner.
+ * Benchmark calculation of fibonacci series with different algorithms.
  *
  * @author Pavel_Novikov1
  */
@@ -24,23 +24,46 @@ public class BenchmarkRunner {
 //    @Measurement(iterations = 1)
 //    @BenchmarkMode(Mode.Throughput)
 //    @OperationsPerInvocation(1)
-    public long benchmark(ExecutionParams params) {
-        return params.calc.fib(params.index);
+//    @Threads(8)
+    public long benchmark(NHolder nh, ClassHolder classHolder) {
+        return classHolder.calc.fib(nh.n);
     }
 
-    @State(Scope.Benchmark)
-    public static class ExecutionParams {
-        @Param({"org.qwertech.CycleFibCalc", "org.qwertech.RecursiveFibCalc"})
+    @State(Scope.Thread)
+    public static class ClassHolder {
+        @Param({
+                "IterativeFibCalc",
+                "IterativeMemorizedFibCalc",
+                "MathFibCalc",
+                "MatricesFibCalc",
+                "MemorizedFibCalc",
+                "RecursiveFibCalc",
+                "SimplerIterativeFibCalc"
+        })
         String calcClass;
-
-        @Param({"5", "10", "20", "40"})
-        int index;
 
         FibCalc calc;
 
         @Setup(Level.Invocation)
         public void setUp() throws IllegalAccessException, InstantiationException, ClassNotFoundException {
-            calc = (FibCalc) Class.forName(calcClass).newInstance();
+            calc = (FibCalc) Class.forName("org.qwertech.calculators." + calcClass).newInstance();
         }
+    }
+
+    @State(Scope.Benchmark)
+    public static class NHolder {
+
+        @Param({
+                "5",
+                "10",
+                "15",
+                "20",
+                "25",
+                "30",
+                "35",
+                "40",
+                "45"
+        })
+        int n;
     }
 }

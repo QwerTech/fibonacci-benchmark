@@ -6,5 +6,5 @@ package org.qwertech;
  * @author Pavel_Novikov1
  */
 public interface FibCalc {
-    long fib(int index);
+    long fib(int n);
 }
