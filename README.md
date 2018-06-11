@@ -1,4 +1,4 @@
-# fibonachi-benchmark [![Build Status](https://travis-ci.org/QwerTech/fibonachi-benchmark.svg?branch=master)](https://travis-ci.org/QwerTech/fibonachi-benchmark) [![codecov](https://codecov.io/gh/QwerTech/fibonachi-benchmark/branch/master/graph/badge.svg)](https://codecov.io/gh/QwerTech/fibonachi-benchmark)
+# fibonacci-benchmark [![Build Status](https://travis-ci.org/QwerTech/fibonachi-benchmark.svg?branch=master)](https://travis-ci.org/QwerTech/fibonachi-benchmark) [![codecov](https://codecov.io/gh/QwerTech/fibonachi-benchmark/branch/master/graph/badge.svg)](https://codecov.io/gh/QwerTech/fibonachi-benchmark)
 Compare fibonacci calculation speed through cycle via recursive calculation and mesuare by JMH
 
 ### JMH execution log
