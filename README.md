@@ -19,11 +19,11 @@ https://gist.github.com/QwerTech/0ddd3367685f4c62523317f6ee82521b
 |org.qwertech.RecursiveFibCalc| 40|thrpt|200| 2.103|± 0.013|ops/s|
 
 ### Test enviroment
-```
-OS Name	                        Microsoft Windows 10 Enterprise
-System Model	                HP EliteBook 840 G4
-System Type	                x64-based PC
-Processor	                Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, 2712 Mhz, 2 Core(s), 4 Logical Processor(s)
-Physical Memory (RAM)           16.0 GB
-Oracle Java                     1.8_171
-```
+|Item|Value|
+|---|---|
+|OS Name|Microsoft Windows 10 Enterprise|
+|System Model|HP EliteBook 840 G4|
+|System Type|x64-based PC|
+|Processor|Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, 2712 Mhz, 2 Core(s), 4 Logical Processor(s)|
+|Physical Memory (RAM)|16.0 GB|
+|Oracle Java|1.8_171|
