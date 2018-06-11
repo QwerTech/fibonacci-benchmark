@@ -17,3 +17,17 @@ https://gist.github.com/QwerTech/0ddd3367685f4c62523317f6ee82521b
 |org.qwertech.RecursiveFibCalc| 10|thrpt|200| 3566727.398|± 29306.560|ops/s|
 |org.qwertech.RecursiveFibCalc| 20|thrpt|200| 31807.095|± 128.767|ops/s|
 |org.qwertech.RecursiveFibCalc| 40|thrpt|200| 2.103|± 0.013|ops/s|
+
+<details><summary>Test enviroment</summary>
+<p>
+
+OS Name	Microsoft Windows 10 Enterprise
+System Manufacturer	HP
+System Model	HP EliteBook 840 G4
+System Type	x64-based PC
+Processor	Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, 2712 Mhz, 2 Core(s), 4 Logical Processor(s)
+Installed Physical Memory (RAM)	16.0 GB
+Total Physical Memory	15.4 GB
+Java 1.8_171
+</p>
+</details>
