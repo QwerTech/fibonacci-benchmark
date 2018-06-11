@@ -1,7 +1,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.qwertech</groupId>
-    <artifactId>fibonachi</artifactId>
+    <artifactId>fibonacci</artifactId>
     <packaging>jar</packaging>
     <version>0.1</version>
     <properties>
