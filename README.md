@@ -5,7 +5,7 @@ Compare fibonacci calculation speed through cycle via recursive calculation and 
 https://gist.github.com/QwerTech/fe3371d8faf4cadcf5e0eb5f467cb2fb
 
 ### Benchmark results
-![](https://github.com/QwerTech/fibonacci-benchmark/raw/master/graph.png)
+![](https://github.com/QwerTech/fibonacci-benchmark/raw/master/graph1.png)
 
 |(calcClass)|(n)|Mode|Cnt|Score|Error|Units|
 |---|---:|---|---|---:|---:|---|
