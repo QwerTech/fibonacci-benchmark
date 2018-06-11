@@ -1,4 +1,4 @@
-# fibonachi-benchmark
+# fibonachi-benchmark [![Build Status](https://travis-ci.org/QwerTech/fibonachi-benchmark.svg?branch=master)](https://travis-ci.org/QwerTech/fibonachi-benchmark)
 Compare fibonachi calculation speed through cycle via recursive calculation and mesuare by JMH
 
 ### JMH execution log
